@@ -1,0 +1,114 @@
+<!-- 
+  Name:Anmol Kumar Singh
+  Section:A
+  Lab 1: Web Dev I
+  Project Name: Personal Portfolio Website
+  File Name: index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anmol Kumar Singh - Personal Portfolio</title>
+</head>
+<body>
+
+    <!-- Accessibility Skip Link -->
+    <a href="#main-content">Skip to main content</a>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Anmol Kumar Singh</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+
+        <!-- Hero & About Section -->
+        <section id="about">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Hello! I am a web development student. This is my personal portfolio website.</p>
+            
+            <h2>About Me</h2>
+            <img src="profile.png" alt="Profile picture of Anmol Kumar Singh" width="150">
+            <p>I am passionate about learning web development and building creative projects.</p>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <ul>
+                <li><b>Portfolio Website:</b> A personal one-page website to showcase your bio, skills, and contact details.</li>
+                <li><b>Medium Clone:</b> A simple blog layout that looks like Medium, built only with HTML and CSS.</li>
+                <li><b>Birthday Card:</b> A creative greeting card webpage designed with HTML structure and CSS styling.</li>
+                <li><b>User Form:</b> A form webpage with fields like name, email, and message for practicing form handling.</li>
+            </ul>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <table border="1" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Skill</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Beginner</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Learning</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </p>
+
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </p>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                </p>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Anmol Kumar Singh. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
