@@ -1,7 +1,7 @@
 # ABOUT PROJECT
-I have made a project for personal portfolio
-I have used sementic tags such as:-
-    1.Header
-    2.Navigation
-    3.Section
-    4.Footer
+I have made a project for personal portfolio<br>
+I have used sementic tags such as:-<br>
+    1.Header<br>
+    2.Navigation<br>
+    3.Section<br>
+    4.Footer<br>
